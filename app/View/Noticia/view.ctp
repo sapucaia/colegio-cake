@@ -24,11 +24,11 @@
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Noticium'), array('action' => 'edit', $noticium['Noticium']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Noticium'), array('action' => 'delete', $noticium['Noticium']['id']), null, __('Are you sure you want to delete # %s?', $noticium['Noticium']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Noticia'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Noticium'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Noticia'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Noticium'), array('action' => 'add')); ?> </li>
 	</ul>
 </div>

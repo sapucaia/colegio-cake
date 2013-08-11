@@ -1,7 +1,7 @@
 <div class="usuarios form">
 <?php echo $this->Form->create('Usuario'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Usuario'); ?></legend>
+		<legend><?php echo __('Adicionar Usuario'); ?></legend>
 	<?php
 		echo $this->Form->input('nomecompleto');
 		echo $this->Form->input('login');
@@ -14,9 +14,9 @@
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Html->link(__('List Usuarios'), array('action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Usuarios'), array('action' => 'index')); ?></li>
 	</ul>
 </div>

@@ -1,7 +1,7 @@
 <div class="emails form">
 <?php echo $this->Form->create('Email'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Email'); ?></legend>
+		<legend><?php echo __('Adicionar Email'); ?></legend>
 	<?php
 		echo $this->Form->input('email');
 		echo $this->Form->input('assunto');
@@ -12,9 +12,9 @@
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Html->link(__('List Emails'), array('action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Emails'), array('action' => 'index')); ?></li>
 	</ul>
 </div>

@@ -39,13 +39,13 @@
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Foto'), array('action' => 'edit', $foto['Foto']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Foto'), array('action' => 'delete', $foto['Foto']['id']), null, __('Are you sure you want to delete # %s?', $foto['Foto']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Fotos'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Foto'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Galeria'), array('controller' => 'galeria', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Galeria'), array('controller' => 'galeria', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Fotos'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Foto'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Galeria'), array('controller' => 'galeria', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Galeria'), array('controller' => 'galeria', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

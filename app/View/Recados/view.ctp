@@ -34,11 +34,11 @@
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Recado'), array('action' => 'edit', $recado['Recado']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Recado'), array('action' => 'delete', $recado['Recado']['id']), null, __('Are you sure you want to delete # %s?', $recado['Recado']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Recados'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Recado'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Recados'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Recado'), array('action' => 'add')); ?> </li>
 	</ul>
 </div>

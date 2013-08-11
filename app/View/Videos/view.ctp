@@ -19,11 +19,11 @@
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Video'), array('action' => 'edit', $video['Video']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Video'), array('action' => 'delete', $video['Video']['id']), null, __('Are you sure you want to delete # %s?', $video['Video']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Videos'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Video'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Videos'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Video'), array('action' => 'add')); ?> </li>
 	</ul>
 </div>

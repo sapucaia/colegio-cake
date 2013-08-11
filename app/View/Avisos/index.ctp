@@ -5,7 +5,7 @@
 			<th><?php echo $this->Paginator->sort('id'); ?></th>
 			<th><?php echo $this->Paginator->sort('data'); ?></th>
 			<th><?php echo $this->Paginator->sort('aviso'); ?></th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th class="actions"><?php echo __('Ações'); ?></th>
 	</tr>
 	<?php foreach ($avisos as $aviso): ?>
 	<tr>
@@ -13,9 +13,9 @@
 		<td><?php echo h($aviso['Aviso']['data']); ?>&nbsp;</td>
 		<td><?php echo h($aviso['Aviso']['aviso']); ?>&nbsp;</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $aviso['Aviso']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $aviso['Aviso']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $aviso['Aviso']['id']), null, __('Are you sure you want to delete # %s?', $aviso['Aviso']['id'])); ?>
+			<?php echo $this->Html->link(__('Visualizar'), array('action' => 'view', $aviso['Aviso']['id'])); ?>
+			<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $aviso['Aviso']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Remover'), array('action' => 'delete', $aviso['Aviso']['id']), null, __('Are you sure you want to delete # %s?', $aviso['Aviso']['id'])); ?>
 		</td>
 	</tr>
 <?php endforeach; ?>
@@ -23,20 +23,20 @@
 	<p>
 	<?php
 	echo $this->Paginator->counter(array(
-	'format' => __('Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}')
+	'format' => __('Pagina {:page} de {:pages}, mostrando {:current} resultado(s) num total de {:count}, começando no resultado {:start}, terminado em {:end}')
 	));
 	?>	</p>
 	<div class="paging">
 	<?php
-		echo $this->Paginator->prev('< ' . __('previous'), array(), null, array('class' => 'prev disabled'));
+		echo $this->Paginator->prev('< ' . __('anterior'), array(), null, array('class' => 'prev disabled'));
 		echo $this->Paginator->numbers(array('separator' => ''));
-		echo $this->Paginator->next(__('next') . ' >', array(), null, array('class' => 'next disabled'));
+		echo $this->Paginator->next(__('próximo') . ' >', array(), null, array('class' => 'next disabled'));
 	?>
 	</div>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Aviso'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('Novo Aviso'), array('action' => 'add')); ?></li>
 	</ul>
 </div>

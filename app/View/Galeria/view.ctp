@@ -29,14 +29,14 @@
 	</dl>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Edit Galerium'), array('action' => 'edit', $galerium['Galerium']['id'])); ?> </li>
 		<li><?php echo $this->Form->postLink(__('Delete Galerium'), array('action' => 'delete', $galerium['Galerium']['id']), null, __('Are you sure you want to delete # %s?', $galerium['Galerium']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Galeria'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Galerium'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Fotos'), array('controller' => 'fotos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Galeria'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Galerium'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Fotos'), array('controller' => 'fotos', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <div class="related">
@@ -51,7 +51,7 @@
 		<th><?php echo __('Descricao'); ?></th>
 		<th><?php echo __('Thumbnail'); ?></th>
 		<th><?php echo __('Galeria Id'); ?></th>
-		<th class="actions"><?php echo __('Actions'); ?></th>
+		<th class="actions"><?php echo __('Ações'); ?></th>
 	</tr>
 	<?php
 		$i = 0;
@@ -65,9 +65,9 @@
 			<td><?php echo $foto['thumbnail']; ?></td>
 			<td><?php echo $foto['galeria_id']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'fotos', 'action' => 'view', $foto['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'fotos', 'action' => 'edit', $foto['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'fotos', 'action' => 'delete', $foto['id']), null, __('Are you sure you want to delete # %s?', $foto['id'])); ?>
+				<?php echo $this->Html->link(__('Visualizar'), array('controller' => 'fotos', 'action' => 'view', $foto['id'])); ?>
+				<?php echo $this->Html->link(__('Editar'), array('controller' => 'fotos', 'action' => 'edit', $foto['id'])); ?>
+				<?php echo $this->Form->postLink(__('Remover'), array('controller' => 'fotos', 'action' => 'delete', $foto['id']), null, __('Are you sure you want to delete # %s?', $foto['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>
@@ -76,7 +76,7 @@
 
 	<div class="actions">
 		<ul>
-			<li><?php echo $this->Html->link(__('New Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
+			<li><?php echo $this->Html->link(__('Novo Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
 		</ul>
 	</div>
 </div>

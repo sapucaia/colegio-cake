@@ -13,12 +13,12 @@
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Galerium.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Galerium.id'))); ?></li>
-		<li><?php echo $this->Html->link(__('List Galeria'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Fotos'), array('controller' => 'fotos', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Remover'), array('action' => 'delete', $this->Form->value('Galerium.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Galerium.id'))); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Galeria'), array('action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Fotos'), array('controller' => 'fotos', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Novo Foto'), array('controller' => 'fotos', 'action' => 'add')); ?> </li>
 	</ul>
 </div>

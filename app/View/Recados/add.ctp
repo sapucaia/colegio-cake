@@ -1,7 +1,7 @@
 <div class="recados form">
 <?php echo $this->Form->create('Recado'); ?>
 	<fieldset>
-		<legend><?php echo __('Add Recado'); ?></legend>
+		<legend><?php echo __('Adicionar Recado'); ?></legend>
 	<?php
 		echo $this->Form->input('remetente');
 		echo $this->Form->input('destinatario');
@@ -13,9 +13,9 @@
 <?php echo $this->Form->end(__('Submit')); ?>
 </div>
 <div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
+	<h3><?php echo __('Ações'); ?></h3>
 	<ul>
 
-		<li><?php echo $this->Html->link(__('List Recados'), array('action' => 'index')); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Recados'), array('action' => 'index')); ?></li>
 	</ul>
 </div>
