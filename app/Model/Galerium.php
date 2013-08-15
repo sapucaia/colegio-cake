@@ -23,7 +23,7 @@ class Galerium extends AppModel {
     public $validate = array(
         'nomegaleria' => array(
             'maxlength' => array(
-                'rule' => array('maxlength'),
+                'rule' => array('maxlength',255),
             //'message' => 'Your custom message here',
             //'allowEmpty' => false,
             //'required' => false,

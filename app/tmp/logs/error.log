@@ -8,3 +8,281 @@ Stack Trace:
 #3 C:\BitNami\wappstack-5.4.11-1\apache2\htdocs\colegio-cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-08-11 18:31:44 Error: [MissingControllerException] Controller class FotoController could not be found.
+Exception Attributes: array (
+  'class' => 'FotoController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/Foto
+Stack Trace:
+#0 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-13 19:46:23 Error: [MissingControllerException] Controller class VideoController could not be found.
+Exception Attributes: array (
+  'class' => 'VideoController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/video/add
+Stack Trace:
+#0 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-13 20:04:00 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:04:14 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/2
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('2')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:04:18 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/edit/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(87): Model->find('first', Array)
+#8 [internal function]: GaleriaController->edit('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:09:53 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:19:36 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:20:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/colegio-cake/app/Controller/FotosController.php, line 91]
+2013-08-13 20:20:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /colegio-cake/fotos/edit/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/colegi...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-13 20:20:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/colegio-cake/app/Controller/FotosController.php, line 91]
+2013-08-13 20:20:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /colegio-cake/fotos/edit/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/colegi...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-13 20:22:32 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-13 20:22:42 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-15 12:25:25 Error: Fatal Error (1): Call to a member function find() on a non-object in [/var/www/colegio-cake/app/Controller/FotosController.php, line 91]
+2013-08-15 12:25:25 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /colegio-cake/Fotos/edit/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/colegi...', 91)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/colegi...', 91, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-15 12:25:37 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-15 12:25:47 Error: [PDOException] SQLSTATE[42703]: Undefined column: 7 ERRO:  coluna Foto.galerium_id não existe
+LINE 1: ...nail", "Foto"."galeria_id" AS "Foto__galeria_id", "Foto"."ga...
+                                                             ^
+Request URL: /colegio-cake/galeria/view/1
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT "Foto"."...', Array)
+#2 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT "Foto"."...', Array, Array)
+#3 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1339): DboSource->fetchAll('SELECT "Foto"."...', false)
+#4 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1201): DboSource->fetchAssociated(Object(Galerium), 'SELECT "Foto"."...', Array)
+#5 /var/www/colegio-cake/lib/Cake/Model/Datasource/DboSource.php(1112): DboSource->queryAssociation(Object(Galerium), Object(Foto), 'hasMany', 'Foto', Array, Array, true, Array, 0, Array)
+#6 /var/www/colegio-cake/lib/Cake/Model/Model.php(2700): DboSource->read(Object(Galerium), Array)
+#7 /var/www/colegio-cake/app/Controller/GaleriaController.php(47): Model->find('first', Array)
+#8 [internal function]: GaleriaController->view('1')
+#9 /var/www/colegio-cake/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(GaleriaController), Array)
+#10 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/colegio-cake/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(GaleriaController), Object(CakeRequest), Object(CakeResponse))
+#12 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-08-15 13:52:37 Error: Fatal Error (64): Cannot use [] for reading in [/var/www/colegio-cake/app/Controller/FotosController.php, line 58]
+2013-08-15 13:52:37 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /colegio-cake/Fotos
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/var/www/colegi...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-15 13:52:56 Error: Fatal Error (64): Cannot use [] for reading in [/var/www/colegio-cake/app/Controller/FotosController.php, line 58]
+2013-08-15 13:52:56 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /colegio-cake/Fotos
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/var/www/colegi...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-15 13:53:05 Error: Fatal Error (64): Cannot use [] for reading in [/var/www/colegio-cake/app/Controller/FotosController.php, line 58]
+2013-08-15 13:53:05 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /colegio-cake/Fotos
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/var/www/colegi...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-15 13:53:43 Error: Fatal Error (64): Cannot use [] for reading in [/var/www/colegio-cake/app/Controller/FotosController.php, line 58]
+2013-08-15 13:53:43 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /colegio-cake/Fotos
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/var/www/colegi...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/var/www/colegi...', 58, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-15 14:17:50 Error: [MissingControllerException] Controller class FotodController could not be found.
+Exception Attributes: array (
+  'class' => 'FotodController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/Fotod
+Stack Trace:
+#0 /var/www/colegio-cake/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-15 14:17:53 Error: Fatal Error (64): Cannot redeclare FotosController::$components in [/var/www/colegio-cake/app/Controller/FotosController.php, line 27]
+2013-08-15 14:17:53 Error: [FatalErrorException] Cannot redeclare FotosController::$components
+Request URL: /colegio-cake/Fotos
+Stack Trace:
+#0 /var/www/colegio-cake/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/var/www/colegi...', 27)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/var/www/colegi...', 27, Array)
+#2 /var/www/colegio-cake/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/var/www/colegi...', 27, Array)
+#3 /var/www/colegio-cake/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
