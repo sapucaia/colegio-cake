@@ -1,0 +1,155 @@
+/* 
+    Document   : barraLinnkSuperior
+    Created on : 10/04/2012, 14:51:40
+    Author     : wallace
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+#barraLinkSuperior{
+    /*background: #2652d6;*/
+    /*background: #005b9a;*/
+    /*height: 50px;*/
+    margin: 2px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-bottom-right-radius: 5px 5px;
+    -moz-box-shadow: 0 0 10px black;
+    /*-webkit-box-shadow: 0 0 10px black;*/
+    /*box-shadow: 0 0 8px black;*/
+
+}
+
+#nav {
+    margin:0; 
+    padding:0; 
+    list-style:none;
+    display: block;
+    height: 50px;
+    overflow: visible;
+    /*position: relative;*/
+}	
+
+/* make the LI display inline */
+/* it's position relative so that position absolute */
+/* can be used in submenu */
+#nav li {
+    float:left; 
+    display:block; 
+
+    /*background:#005b9a;*/ 
+    position:relative;
+    z-index:500; 
+    margin:5px 10px 0 10px;
+    border-radius: 0.3em;
+}
+
+/* this is the parent menu */
+#nav li a {
+    /*    width: 100px;*/
+    display:block; 
+    padding:3px 8px 0 8px; 
+    font-weight:500;  
+    /*    height:23px; */
+    text-decoration:none; 
+    color:white; 
+    height: 35px;
+    line-height: 35px !important;
+    text-align:left; 
+    /*font-family:helvetica;*/
+    border-radius: 0.3em;
+    font-size: 18px;
+
+}
+
+#nav li ul li{
+    width: 200px;
+}
+
+#nav li ul li a{
+    height: 25px;
+    border-radius: 0;
+    display: block;
+    line-height: 20px;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 12px;
+}
+
+#nav li a:hover {
+    color:#fff;
+}
+
+/* you can make a different style for default selected value */
+#nav a.selected {
+    color:#f00;
+}
+
+/* submenu, it's hidden by default */
+#nav ul {
+    position:absolute; 
+    left:0; 
+    display:none; 
+    margin:0 0 0 -1px; 
+    padding:0; 
+    list-style:none;
+}
+
+#nav ul li {
+    width:180px; 
+    float:left; 
+    border-bottom:1px solid #fff;
+    margin: 0;
+    border-radius: 0em;
+
+}
+
+/* display block will make the link fill the whole area of LI */
+/*
+#nav ul a {
+    display:block;  
+    height:15px;
+        padding: 8px 5px; 
+    padding-bottom: 5px;
+    border-radius: 0em;
+    border-bottom: 0px #fff solid;
+    border-top: 0;
+        color:#666;
+}
+*/
+
+#nav ul a:hover {
+    /*    text-decoration:;	*/
+    border-left: #181871 solid;
+}
+
+/* fix ie6 small issue */
+/* we should always avoid using hack like this */
+/* should put it into separate file : ) */
+html #nav ul {
+    /*    margin:0 0 0 -2px;*/
+}
+
+/*.subitem{
+    line-height: 20px !important;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+

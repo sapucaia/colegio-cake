@@ -8,3 +8,983 @@ Stack Trace:
 #3 C:\BitNami\wappstack-5.4.11-1\apache2\htdocs\colegio-cake\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-08-10 20:08:43 Error: [MissingViewException] View file "C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\View\Home\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'C:\\Users\\Livia Correia\\Documents\\GitHub\\colegio-cake\\app\\View\\Home\\index.ctp',
+)
+Request URL: /colegio-cake/
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\lib\Cake\Controller\Controller.php(952): View->render(NULL, NULL)
+#2 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\lib\Cake\Routing\Dispatcher.php(194): Controller->render()
+#3 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\lib\Cake\Routing\Dispatcher.php(162): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-10 20:16:23 Error: [MissingControllerException] Controller class ImagensController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagensController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/imagens/bg.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:05:17 Error: [MissingControllerException] Controller class ImagensController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagensController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/imagens/bg.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:11:19 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:11:19 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:11:19 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:11:20 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:14:20 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:14:20 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:14:20 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:14:20 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:05 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:05 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:05 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:05 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:40 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:40 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:41 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:41 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:41 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:41 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:23:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera-loader.gif
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:00 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:24:03 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera-loader.gif
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:15 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:18 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera-loader.gif
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:25:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:26:02 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:26:02 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:26:02 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:26:02 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+se))
+#1 {main}
+2013-08-11 08:26:05 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera-loader.gif
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:06 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:09 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera-loader.gif
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:55 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:55 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:56 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:56 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:28:56 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:31:36 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:31:36 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:31:36 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:31:36 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:31:36 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Facebook_icon.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_65_ec5151_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/GooglePlus%20%20512%20Grey%20Gloss.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:12 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/Twitter_512x512.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:15 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_highlight-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:32:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_77a5c5_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:34:54 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:34:54 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:00 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/images/camera_skins.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:03 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:04 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_65_ec5151_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_highlight-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:36 Error: [MissingControllerException] Controller class RecursosController could not be found.
+Exception Attributes: array (
+  'class' => 'RecursosController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/recursos/imagens/parceiros.jpg
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:36 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+ect(CakeResponse))
+#1 {main}
+in}
+2013-08-11 08:37:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:37:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_77a5c5_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_65_ec5151_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_highlight-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_77a5c5_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 08:48:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_454545_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 09:04:22 Error: [MissingControllerException] Controller class Ifotos.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Ifotos.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/ifotos.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-11 09:04:26 Error: [MissingControllerException] Controller class Ifotos.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Ifotos.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/ifotos.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_65_ec5151_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:53 Error: [MissingControllerException] Controller class Home.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Home.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/home.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_flat_75_ffffff_40x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_highlight-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_005b9a_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_inset-soft_75_77a5c5_1x100.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-bg_glass_55_fbf9ee_1x400.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-14 12:16:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-17 06:16:58 Error: [MissingControllerException] Controller class Ifotos.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Ifotos.phpController',
+  'plugin' => NULL,
+)
+Request URL: /colegio-cake/ifotos.php
+Stack Trace:
+#0 C:\Users\Livia Correia\Documents\GitHub\colegio-cake\app\webroot\index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
